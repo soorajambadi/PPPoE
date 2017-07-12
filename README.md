@@ -24,5 +24,3 @@ netsh interface ip add neighbors "Interface name" "IP address of PPPoE server in
 6) Do sudo ./run.sh (Make sure DPDK directory specified in run.sh file is correct) to start PPPoE server. 
 
 7) Make DSL connection from PPPoE client which is on same intranet as PPPoE server.
-
-# PPPoE
