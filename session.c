@@ -1,5 +1,5 @@
 /* session - Session related declarations and functions.
- * Copyright (C) 2016  Puneet Arora
+ * Copyright (C) 2016  Sooraj Mandotti, Puneet Arora
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
+ * sooraj.mandotti@stud.tu-darmstadt.de, Technical University Darmstadt
  * puneet.arora@stud.tu-darmstadt.de, Technical University Darmstadt
  *
  */
