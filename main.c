@@ -87,9 +87,9 @@
 #include "pppoe.h"
 #include "ippool.c"
 #include "session.c"
-#include "lab_task.c"
+#include "pppoe_dp.c"
 #include "pppoe_auth.c"
-#include "pppoeconfig.c"
+#include "pppoe_config.c"
 
 struct rte_mempool* mempool;
 uint8_t pppoe_enabled_port_nb;

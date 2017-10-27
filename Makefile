@@ -32,9 +32,9 @@ LDLIBS += -lpthread
 #LDLIBS += -lxml2 
 LDLIBS += -lm
 
-app: lab_main.o
-	$(CC) $(LDDIRS) -o lab_main lab_main.o $(LDLIBS)
+app: main.o
+	$(CC) $(LDDIRS) -o main main.o $(LDLIBS)
 
-lab_main.o: lab_main.c lab_task.c
-	$(CC) -mssse3 -I../grt -I$(RTE_SDK)/$(RTE_TARGET)/include -c lab_main.c
+main.o: main.c pppoe_dp.c
+	$(CC) -mssse3 -I../grt -I$(RTE_SDK)/$(RTE_TARGET)/include -c main.c
 

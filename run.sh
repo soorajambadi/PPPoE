@@ -1,5 +1,5 @@
 # run - run the server.
-# Copyright (C) 2016  Puneet Arora.
+# Copyright (C) 2016  Sooraj Mandotti, Puneet Arora.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,6 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+# sooraj.mandotti@stud.tu-darmstadt.de, Technical University Darmstadt
 # puneet.arora@stud.tu-darmstadt.de, Technical University Darmstadt
 
 #!/bin/bash
@@ -30,5 +31,5 @@ insmod $DPDK_DIR/$DPDK_PLAF/kmod/rte_kni.ko
 $DPDK_DIR/tools/dpdk_nic_bind.py --bind igb_uio 0000:00:08.0
 
 export LD_LIBRARY_PATH=$DPDK_DIR/$DPDK_PLAF/lib
-./lab_main -c3 -n4 -d $DPDK_DIR/$DPDK_PLAF/lib/librte_pmd_virtio.so
+./main -c3 -n4 -d $DPDK_DIR/$DPDK_PLAF/lib/librte_pmd_virtio.so
 
